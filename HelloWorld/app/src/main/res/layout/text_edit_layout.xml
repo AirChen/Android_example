@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:hint="Please input text here!"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/text_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Toast Button"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/text_alert"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="AlertDialog"
+        />
+    <Button
+        android:id="@+id/text_progress_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ProgressDialog"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/text_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bear"
+        />
+
+    <ProgressBar
+        android:id="@+id/text_progress_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/text_progress_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:progressBarStyleHorizontal"
+        android:max="100"
+        />
+
+</LinearLayout>
