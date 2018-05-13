@@ -37,12 +37,12 @@ public class ScrollPartActivity extends BasicActivity implements View.OnClickLis
             break;
             case R.id.scroll_recycle:
             {
-
+                RecyclerViewActivity.startActivity(ScrollPartActivity.this);
             }
             break;
             case R.id.scroll_chat:
             {
-
+                ChatActivity.startActivity(ScrollPartActivity.this);
             }
             break;
         }

@@ -37,7 +37,9 @@
         </activity>
         <activity android:name=".TextEditActivity" />
         <activity android:name=".ScrollPartActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ChatActivity"></activity>
     </application>
 
 </manifest>
