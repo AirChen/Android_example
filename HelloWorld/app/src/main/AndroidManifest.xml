@@ -40,6 +40,10 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".Fragement.FragementActivity"/>
+        <activity android:name=".News.NewsContentActivity"/>
+        <activity android:name=".News.NewsActivity"/>
+
     </application>
 
 </manifest>

@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.helloworld.Fragement.FragementActivity;
+import com.example.helloworld.News.NewsActivity;
+
 public class HelloWorldActivity extends BasicActivity implements View.OnClickListener {
     private static final String TAG = "HelloWorldActivity";
     @Override
@@ -41,6 +44,12 @@ public class HelloWorldActivity extends BasicActivity implements View.OnClickLis
 
         Button scrollPButton = findViewById(R.id.button_6);
         scrollPButton.setOnClickListener(this);
+
+        Button fragementButton = findViewById(R.id.button_7);
+        fragementButton.setOnClickListener(this);
+
+        Button newsDemoButton = findViewById(R.id.button_8);
+        newsDemoButton.setOnClickListener(this);
     }
 
     @Override
@@ -124,6 +133,16 @@ public class HelloWorldActivity extends BasicActivity implements View.OnClickLis
             case R.id.button_6:
             {
                 ScrollPartActivity.startActivity(HelloWorldActivity.this);
+            }
+            break;
+            case R.id.button_7:
+            {
+                FragementActivity.startActivity(HelloWorldActivity.this);
+            }
+            break;
+            case R.id.button_8:
+            {
+                NewsActivity.startActivity(HelloWorldActivity.this);
             }
             break;
         }
